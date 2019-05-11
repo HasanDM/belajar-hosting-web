@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+
+body {
+	font-family: 'Titillium Web', sans-serif;
+}
+nav { display:block; margin-top:100%; background:#374147; border-bottom:auto solid #07ACEC; padding: 100%;}
+.menu { display:block; margin-top: 10px; }
+.menu li { display:inline-block; position:relative; z-index:100; }
+.menu li a { font-weight:600; text-decoration:none; padding:20px 15px; display:block; color:#5f6059; transition:all 0.2s ease-in-out 0s; }
+.menu li a:hover,.menu li:hover>a { color:#fff; background:#014663; }
+.menu ul { visibility:hidden; opacity:0; margin:0; padding:0; width:auto; position:absolute; left:0; background:#fff; z-index:99; transform:translate(0,20px); transition:all 0.2s ease-out; }
+.menu ul li a { font-size:15px; font-weight:bold; display:block; color:#000; background:cyan; }
+.menu li:hover>ul { visibility:visible; opacity:1; transform:translate(0,0); }
+.menu ul ul:after { left:-6px; top:10%; border:solid transparent; content:" "; height:0; width:0; position:absolute; pointer-events:none; border-color:#000; border-right-color:#fff; border-width:6px; margin-top:-6px; }
+.responsive-menu { display:none; width:100%; padding:20px 15px; background:#374147; color:#fff; text-transform:uppercase; font-weight:600; }
+@media (min-width:768px) and (max-width:979px) {
+.mainWrap { width:768px; } 
+.menu ul { top:37px; } 
+.menu li a { font-size:12px; }
+}
+
+.headertulis {
+	font-family:'Titillium Web', sans-serif;
+	font-size: 16px;
+	margin-left: -35px;
+}
+
+.wrap{
+	background: white;
+	width: 450px
+	margin: 14px 500px;
+}
+ 
+
+ .image {
+ 	margin-left: 588px;
+ 	margin-top: -5px;
+ 	margin-bottom: -20px;
+ 	background-position: 
+  center center;
+ }
+/*bagian header*/
+.wrap .header{
+	background: gray;
+	/*height: 50px;*/
+	padding: 2px 10px;
+}
+ 
+/*akhir header*/
+ 
+/*bagian menu*/
+.wrap .menu{
+	background: black;
+}
+ 
+.wrap .menu ul{
+	padding: 0;
+	margin: 0;
+	background: black;
+	overflow: hidden;
+}
+ 
+.wrap .menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
+/*akhir menu*/
+ 
+.clear{
+	clear: both;
+}
+ 
+.badan{
+	height: 500px;
+}
+/*bagian sidebar*/
+.konten1{
+  margin-top: 265px;
+  margin-right: 20px;
+  text-decoration: none;
+ line-height:73px;
+ background-color:#c4cccb;
+ height:100%;
+ width:228px;
+ float:right;
+ padding:12px;
+ font-weight:600; text-decoration:none; padding:20px 50px; display:block; color:#5f6059; transition:all 0.2s ease-in-out 0s;
+ visibility:visible; opacity:1; transform:translate(0,0);
+}
+.nav{
+  margin-top: 265px;
+  margin-right: 20px;
+  text-decoration: none;
+ line-height:73px;
+ background-color:#c4cccb;
+ height:100%;
+ width:228px;
+ float:right;
+ padding:12px;
+ font-weight:600; text-decoration:none; padding:20px 50px; display:block; color:#5f6059; transition:all 0.2s ease-in-out 0s;
+ visibility:visible; opacity:1; transform:translate(0,0);
+}
+ 
+/*akhir sidebar*/
+ 
+.wrap .badan .content{
+	padding: 10px;
+	background: white;
+	float: right;
+	height: auto;
+	width: 65%;
+	text-align: justify;
+	margin-top: 0px;
+	margin-right: 260px; 
+}
+ 
+ .judul {
+ 	float: 450px;
+ 	height: auto;
+ 	text-align: center;
+ 	font-weight: bold;
+ }
+.wrap .footer{
+	background: aqua;
+	width: auto;
+	height: auto;
+	padding: 15px;
+}
+
+.sumber {
+	font-style: italic;
+}
